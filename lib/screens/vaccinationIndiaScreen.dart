@@ -630,7 +630,6 @@ class StateCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    TextStyle textStyle = Theme.of(context).textTheme.display1;
     // if (selected)
     //   textStyle = textStyle.copyWith(color: Colors.lightGreenAccent[400]);
     return FutureBuilder(

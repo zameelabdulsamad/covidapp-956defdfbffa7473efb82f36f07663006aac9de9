@@ -249,6 +249,7 @@ class _RegisterVaccinationScreenState extends State<RegisterVaccinationScreen> {
             title: Text("Register"),
             bottom: const TabBar(
               indicatorColor: primaryRed,
+
               labelColor: primaryRed,
               labelStyle: TextStyle(fontWeight: FontWeight.bold),
               unselectedLabelStyle: TextStyle(fontWeight: FontWeight.normal),
@@ -556,6 +557,7 @@ class _RegisterVaccinationScreenState extends State<RegisterVaccinationScreen> {
                       ,
                       SizedBox(height: 10,),
                     ],
+
                   ),
                 ),
               ),
